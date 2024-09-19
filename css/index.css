@@ -1,0 +1,61 @@
+body {
+    /* text-align: center; */
+    /* margin: 200px; */
+    height: 100vh;
+    background-image: linear-gradient(to right top,
+            #051937,
+            #004d7a,
+            #008793,
+            #00bf72,
+            #a8eb12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    align-items: center;
+    gap: 3.2rem;
+    text-align: center;
+}
+
+#mybutton {
+    text-align: center;
+    height: 50px;
+    border-radius: 30px;
+    width: 150px;
+    background-color: rgb(92,145,229);
+    color: rgb(34, 34, 34);
+    box-shadow: 3px 3px 24px 0px #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#mybutton2 {
+    text-align: center;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    background-color:rgb(48, 201, 99);
+    color: rgb(34, 34, 34);
+    box-shadow: 3px 3px 24px 0px #000000;
+}
+
+.copycode {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.rem;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    border-left: 3px solid #fff;
+    background-color: rgba(189, 189, 189, 0.1);
+    padding: 15px 8px 15px 17px;
+    border-radius: 5px;
+}
